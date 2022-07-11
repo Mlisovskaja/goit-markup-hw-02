@@ -216,6 +216,7 @@ body {
 .portfolio-filter-btn:focus {
     color:#FFFFFF;
     background-color: var(--accent-color);
+    cursor: pointer;
 }
 .project-name {
     font-weight: 700;
