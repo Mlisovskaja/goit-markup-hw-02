@@ -48,6 +48,8 @@ body {
         letter-spacing: 0.03em;
         color: #212121;
 }
+
+
 /* ==================== /COMPONENTS ==================== */
 
 /* ==================== HEADER ==================== */
@@ -60,6 +62,13 @@ body {
 }
 .menu-item .link:hover,
 .menu-item .link:focus {
+    color: var(--accent-color);
+}
+
+.menu-item .link:active {
+    color: var(--accent-color);
+}
+.page-nav .current {
     color: var(--accent-color);
 }
 
